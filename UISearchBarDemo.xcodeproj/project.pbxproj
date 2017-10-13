@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06366031F90542B00623642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06366021F90542B00623642 /* AppDelegate.m */; };
+		F06366061F90542B00623642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06366051F90542B00623642 /* ViewController.m */; };
+		F06366091F90542B00623642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06366071F90542B00623642 /* Main.storyboard */; };
+		F063660B1F90542B00623642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F063660A1F90542B00623642 /* Assets.xcassets */; };
+		F063660E1F90542B00623642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F063660C1F90542B00623642 /* LaunchScreen.storyboard */; };
+		F06366111F90542B00623642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06366101F90542B00623642 /* main.m */; };
+		F063661B1F90546000623642 /* SSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F06366171F90545F00623642 /* SSSearchBar.m */; };
+		F063661C1F90546000623642 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = F06366181F90545F00623642 /* UIImage+Tool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F06365FE1F90542B00623642 /* UISearchBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06366011F90542B00623642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F06366021F90542B00623642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F06366041F90542B00623642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F06366051F90542B00623642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F06366081F90542B00623642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F063660A1F90542B00623642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F063660D1F90542B00623642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F063660F1F90542B00623642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06366101F90542B00623642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F06366171F90545F00623642 /* SSSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSSearchBar.m; sourceTree = "<group>"; };
+		F06366181F90545F00623642 /* UIImage+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		F06366191F90546000623642 /* UIImage+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		F063661A1F90546000623642 /* SSSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSSearchBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06365FB1F90542B00623642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06365F51F90542B00623642 = {
+			isa = PBXGroup;
+			children = (
+				F06366001F90542B00623642 /* UISearchBarDemo */,
+				F06365FF1F90542B00623642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06365FF1F90542B00623642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06365FE1F90542B00623642 /* UISearchBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06366001F90542B00623642 /* UISearchBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F06366011F90542B00623642 /* AppDelegate.h */,
+				F06366021F90542B00623642 /* AppDelegate.m */,
+				F06366041F90542B00623642 /* ViewController.h */,
+				F06366051F90542B00623642 /* ViewController.m */,
+				F063661A1F90546000623642 /* SSSearchBar.h */,
+				F06366171F90545F00623642 /* SSSearchBar.m */,
+				F06366191F90546000623642 /* UIImage+Tool.h */,
+				F06366181F90545F00623642 /* UIImage+Tool.m */,
+				F06366071F90542B00623642 /* Main.storyboard */,
+				F063660A1F90542B00623642 /* Assets.xcassets */,
+				F063660C1F90542B00623642 /* LaunchScreen.storyboard */,
+				F063660F1F90542B00623642 /* Info.plist */,
+				F06366101F90542B00623642 /* main.m */,
+			);
+			path = UISearchBarDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06365FD1F90542B00623642 /* UISearchBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06366141F90542B00623642 /* Build configuration list for PBXNativeTarget "UISearchBarDemo" */;
+			buildPhases = (
+				F06365FA1F90542B00623642 /* Sources */,
+				F06365FB1F90542B00623642 /* Frameworks */,
+				F06365FC1F90542B00623642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISearchBarDemo;
+			productName = UISearchBarDemo;
+			productReference = F06365FE1F90542B00623642 /* UISearchBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06365F61F90542B00623642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "xk jiang";
+				TargetAttributes = {
+					F06365FD1F90542B00623642 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F06365F91F90542B00623642 /* Build configuration list for PBXProject "UISearchBarDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06365F51F90542B00623642;
+			productRefGroup = F06365FF1F90542B00623642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06365FD1F90542B00623642 /* UISearchBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06365FC1F90542B00623642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F063660E1F90542B00623642 /* LaunchScreen.storyboard in Resources */,
+				F063660B1F90542B00623642 /* Assets.xcassets in Resources */,
+				F06366091F90542B00623642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06365FA1F90542B00623642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06366061F90542B00623642 /* ViewController.m in Sources */,
+				F063661B1F90546000623642 /* SSSearchBar.m in Sources */,
+				F063661C1F90546000623642 /* UIImage+Tool.m in Sources */,
+				F06366111F90542B00623642 /* main.m in Sources */,
+				F06366031F90542B00623642 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06366071F90542B00623642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06366081F90542B00623642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F063660C1F90542B00623642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F063660D1F90542B00623642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06366121F90542B00623642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06366131F90542B00623642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06366151F90542B00623642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVLG7H6P95;
+				INFOPLIST_FILE = UISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xkjiang.UISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06366161F90542B00623642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVLG7H6P95;
+				INFOPLIST_FILE = UISearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xkjiang.UISearchBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06365F91F90542B00623642 /* Build configuration list for PBXProject "UISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06366121F90542B00623642 /* Debug */,
+				F06366131F90542B00623642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06366141F90542B00623642 /* Build configuration list for PBXNativeTarget "UISearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06366151F90542B00623642 /* Debug */,
+				F06366161F90542B00623642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06365F61F90542B00623642 /* Project object */;
+}
