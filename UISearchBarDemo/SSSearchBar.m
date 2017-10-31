@@ -11,7 +11,7 @@
 
 @interface SSSearchBar () <UITextFieldDelegate>
 
-// placeholder 和icon 与间隙的整体宽度
+// placeholder 和icon 和 间隙的整体宽度
 @property (nonatomic, assign) CGFloat placeholderWidth;
 
 @end
@@ -38,6 +38,10 @@ static CGFloat const placeHolderFont = 15.0;
             [field setBackgroundColor:[UIColor whiteColor]];
             field.textColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1];
             
+            field.borderStyle = UITextBorderStyleNone;
+            field.layer.cornerRadius = 2.0f;
+            field.layer.masksToBounds = YES;
+            
             // 设置占位文字字体颜色
             [field setValue:[UIColor colorWithRed:156/255.0 green:156/255.0 blue:156/255.0 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
             [field setValue:[UIFont systemFontOfSize:placeHolderFont] forKeyPath:@"_placeholderLabel.font"];
@@ -52,6 +56,10 @@ static CGFloat const placeHolderFont = 15.0;
 
 // 开始编辑的时候重置为靠左
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    // 继续传递代理方法
+    if ([self.delegate respondsToSelector:@selector(searchBarShouldBeginEditing:)]) {
+        [self.delegate searchBarShouldBeginEditing:self];
+    }
     if (@available(iOS 11.0, *)) {
         [self setPositionAdjustment:UIOffsetZero forSearchBarIcon:UISearchBarIconSearch];
     }
@@ -59,6 +67,9 @@ static CGFloat const placeHolderFont = 15.0;
 }
 // 结束编辑的时候设置为居中
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
+    if ([self.delegate respondsToSelector:@selector(searchBarShouldEndEditing:)]) {
+        [self.delegate searchBarShouldEndEditing:self];
+    }
     if (@available(iOS 11.0, *)) {
         [self setPositionAdjustment:UIOffsetMake((textField.frame.size.width-self.placeholderWidth)/2, 0) forSearchBarIcon:UISearchBarIconSearch];
     }
